@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F082F8924C6814A001CF454 /* coinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F082F8824C6814A001CF454 /* coinSound.mp3 */; };
+		3F082F8B24C681FE001CF454 /* explosionSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F082F8A24C681FE001CF454 /* explosionSound.mp3 */; };
 		3F75733F24C5FAE9001AD2BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F75733E24C5FAE9001AD2BC /* AppDelegate.swift */; };
 		3F75734124C5FAE9001AD2BC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F75734024C5FAE9001AD2BC /* GameScene.sks */; };
 		3F75734324C5FAE9001AD2BC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F75734224C5FAE9001AD2BC /* Actions.sks */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F082F8824C6814A001CF454 /* coinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = coinSound.mp3; sourceTree = "<group>"; };
+		3F082F8A24C681FE001CF454 /* explosionSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosionSound.mp3; sourceTree = "<group>"; };
 		3F75733B24C5FAE9001AD2BC /* Coin Man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Man.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F75733E24C5FAE9001AD2BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F75734024C5FAE9001AD2BC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				3F75734B24C5FAEA001AD2BC /* Assets.xcassets */,
 				3F75734D24C5FAEA001AD2BC /* LaunchScreen.storyboard */,
 				3F75735024C5FAEA001AD2BC /* Info.plist */,
+				3F082F8824C6814A001CF454 /* coinSound.mp3 */,
+				3F082F8A24C681FE001CF454 /* explosionSound.mp3 */,
 			);
 			path = "Coin Man";
 			sourceTree = "<group>";
@@ -238,11 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F082F8924C6814A001CF454 /* coinSound.mp3 in Resources */,
 				3F75734A24C5FAE9001AD2BC /* Main.storyboard in Resources */,
 				3F75734124C5FAE9001AD2BC /* GameScene.sks in Resources */,
 				3F75734C24C5FAEA001AD2BC /* Assets.xcassets in Resources */,
 				3F75734F24C5FAEA001AD2BC /* LaunchScreen.storyboard in Resources */,
 				3F75734324C5FAE9001AD2BC /* Actions.sks in Resources */,
+				3F082F8B24C681FE001CF454 /* explosionSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
